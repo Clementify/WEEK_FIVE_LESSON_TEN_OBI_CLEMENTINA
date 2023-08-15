@@ -1,0 +1,46 @@
+.container{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.img img{
+    height: 100%;
+    width:500px;
+    border-radius: 30px;
+}
+.parentPara{
+    display: flex;
+    justify-content: center;
+}
+.para{
+    border-radius: 20px;
+    height: 70px;
+    width: 20%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 90px;
+    border: 2px solid grey;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+button{
+    border-radius: 20px;
+    height: 60px;
+    width: 200px;
+    font-size: 30px;
+}
